@@ -152,11 +152,28 @@ button:hover {
 
 @media (max-width: 500px) {
   .card {
-    min-width: 90vw;
-    padding: 18px 6px;
+    min-width: 95vw;
+    padding: 12px 2vw;
   }
   .avatar {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
+  }
+  .invite-title {
+    font-size: 1.1rem;
+  }
+  h2, .card h2 {
+    font-size: 1.1rem;
+  }
+  input[type="text"] {
+    font-size: 0.95rem;
+    padding: 8px 10px;
+  }
+  button {
+    font-size: 0.95rem;
+    padding: 8px 14px;
+  }
+  #greeting {
+    font-size: 1rem;
   }
 } 
