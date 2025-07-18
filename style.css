@@ -160,20 +160,20 @@ button:hover {
     height: 80px;
   }
   .invite-title {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
   }
   h2, .card h2 {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
   }
   input[type="text"] {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     padding: 8px 10px;
   }
   button {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     padding: 8px 14px;
   }
   #greeting {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 } 
