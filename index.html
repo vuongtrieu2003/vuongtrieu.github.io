@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🎓 Thiệp Mời Dự Lễ Tốt Nghiệp 🎓</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="name-input-container">
+    <div class="name-input-box">
+      <h2>🎓 Thiệp Mời Dự Lễ Tốt Nghiệp 🎓</h2>
+      <p>Hãy nhập tên của bạn để mở thiệp</p>
+      <input type="text" id="recipient-name" placeholder="Nhập tên của bạn..." />
+      <button onclick="showInvitation()">Mở Thiệp</button>
+    </div>
+  </div>
+
+  <div id="invitation-card" class="hidden">
+    <canvas id="fireworks"></canvas>
+    <div class="card-content">
+      <h1>🎓 Thiệp Mời Dự Lễ Tốt Nghiệp 🎓</h1>
+      <p>Thân mời <span id="recipient"></span> tham gia và chung vui lễ tốt nghiệp của</p>
+      <h2>TÂN CỬ NHÂN</h2>
+      <h1 class="graduate-name">NGUYỄN DUỆ VƯƠNG TRIỀU</h1>
+      <p>Cử nhân: Công nghệ thông tin</p>
+      <p>Trường: <strong>ĐẠI HỌC QUY NHƠN</strong></p>
+      <p>Khóa: 2021 - 2025</p>
+      <p class="time-location">
+        ⏰ 07:30 - Thứ Năm, 31/07/2025<br />
+        📍 Hội trường A – Đại học Quy Nhơn
+      </p>
+      <p id="countdown"></p>
+      <p class="honor-text">Sự hiện diện của <span id="recipient-2"></span> là niềm vinh dự cho Triều!</p>
+      <p><em>Trân trọng thân mời, <span id="recipient-3"></span></em></p>
+      <button id="music-toggle">🔊 Bật/Tắt nhạc nền</button>
+    </div>
+    <audio id="bg-music" src="music/bg-music.mp3" loop></audio>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
