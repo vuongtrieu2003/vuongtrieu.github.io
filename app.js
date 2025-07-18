@@ -1,4 +1,3 @@
-
 function showInvitation() {
   const name = document.getElementById('recipient-name').value.trim();
   if (name === '') {
@@ -12,7 +11,9 @@ function showInvitation() {
   document.getElementById('recipient-2').textContent = name;
   document.getElementById('recipient-3').textContent = name;
 
+  // Start fireworks and music after thiệp hiện
   startFireworks();
+  document.getElementById('bg-music').play();
   startCountdown();
 }
 
