@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thiệp Mời Lễ Tốt Nghiệp</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div id="name-form" class="card">
+      <div class="invite-title">
+        <span>🎓</span> Thư mời dự lễ tốt nghiệp
+      </div>
+      <h2>Nhập tên của bạn để mở thiệp</h2>
+      <input type="text" id="guest-name" placeholder="Nhập tên...">
+      <button id="open-invite">Mở thiệp</button>
+    </div>
+    <div id="invite-card" class="card hidden">
+      <div class="avatar-wrapper">
+        <img src="avatar1.jpg" alt="Ảnh cá nhân" class="avatar">
+      </div>
+      <h2 id="greeting"></h2>
+      <div class="invite-text">
+        <h2>🎓 Thiệp Mời Dự Lễ Tốt Nghiệp 🎓</h2>
+        <p>Thân mời <span id="guest-span"; style="color: red;">bạn</span> tham gia và chung vui lễ tốt nghiệp của</p>
+      
+        <h2 style="margin: 0 0 8px 0; color: #5a7be6;">NGUYỄN DUỆ VƯƠNG TRIỀU</h2>
+        <div style="margin-bottom: 8px;">
+          <strong>Cử nhân:</strong> Công nghệ thông tin<br>
+          <strong>Trường:</strong> ĐẠI HỌC QUY NHƠN<br>
+          <strong>Khóa:</strong> 2021 - 2025
+        </div>
+        <div style="margin-bottom: 8px;">
+          <strong>⏰ Thời gian:</strong> 07:30, Thứ NĂM, 31/07/2025<br>
+          <strong>🏛️ Địa điểm:</strong> Hội trường A, Đại học Quy Nhơn
+        </div>
+        <div style="margin: 16px 0;">
+          <strong>Thời gian còn lại đến lễ tốt nghiệp</strong><br>
+          <span id="countdown" style="font-size:1.3rem; color:#7f9cf5; font-weight:bold;">-- ngày --:--:--</span>
+        </div>
+        <div style="margin-top: 12px;">
+          Sự hiện diện của <span id="guest-span-2"; style="color: red;">bạn</span> là niềm vinh dự cho Triều!<br>
+          <strong>Trân trọng thân mời</strong>
+        </div>
+      </div>
+      <div style="font-size:0.95rem; color:#aaa; margin-top:18px; text-align:center;">
+        📞 0327177268<br>
+        📧 trieunguyen20033@gmail.com
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
